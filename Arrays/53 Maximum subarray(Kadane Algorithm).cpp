@@ -28,7 +28,7 @@ public:
 
 /*
 Better approach
- - need only 3 nested loops
+ - need only 2 nested loops
  T.C. - O(N^2)
  S.C. - O(1)
 */
