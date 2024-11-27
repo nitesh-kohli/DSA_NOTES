@@ -33,7 +33,7 @@ Optimal approach
 
 idea - we traverse the array from (i -> 0 to n) and we find the min value to buy stock and at the same time we try to sell stock on that ith value.
 two situation occur
- - ith value is the new min and we if we sell we get profit zero.
+ - ith value is the new min and if we sell we get profit zero.
  - ith value is greater than min value found till now and we sell on it and get some +ve profit.
 
 so every time we also compare the profit we are getting with the maxProfit we got till so far.
